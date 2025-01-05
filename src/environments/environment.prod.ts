@@ -1,8 +1,8 @@
 export const environment = {
   production: true,
-  baseUrl: 'http://localhost:8000/api', // eg:'https://your-marketplace.com/api'
+  baseUrl: 'https://api.orsetto.ch/api', // eg:'https://your-marketplace.com/api'
   chatUrl: '<Your Chat base url>', // eg:'https://your-chaturl.com/'
-  imageUrl: 'http://localhost:8000/api/media/image-resize', // eg:'https://your-marketplace.com/api/media/image-resize'
+  imageUrl: 'https://api.orsetto.ch/api/media/image-resize', // eg:'https://your-marketplace.com/api/media/image-resize'
   storeUrl : '<Your store base url>', // eg:'https://your-marketplace.com/'
   pluginUrl: '<Your API url>', // eg:'https://your-marketplace.com/'
   maxImage: 5, // 'Max image allowed only 5'
